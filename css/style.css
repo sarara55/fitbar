@@ -1,0 +1,350 @@
+body {
+margin:0px;
+font-family: "Arial", "Impact", sans-serif;
+background-image: url("../images/background.png");
+ background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment: fixed;
+margin-top: 80px;
+}
+
+nav {
+	background-color: #3e3442;
+  border-bottom: 2px solid white;
+}
+
+.navbar-nav .nav-item .nav-link {
+	text-decoration: none;
+	color:white;
+	font-size: 12px;
+	padding: 20px 20px 10px 20px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(255,255,255, 0.7);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #5db720;
+	text-decoration: none;
+
+}
+
+.navbar-toggler:focus {
+  outline: none; !important;
+}
+
+nav img {
+	width: 40px;
+	margin-left: 15px;
+}
+
+#welcome {
+	display: flex;
+	justify-content: center;
+}
+
+#welcome h1 {
+	margin-bottom: 250px;
+	margin-top: 250px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 55px;
+	color: white;
+	display: inline-block;
+	font-weight: lighter;
+	opacity: 0.8;
+	
+}
+
+
+
+#about, #menu, #gallery {
+	background-color: white;
+	margin-bottom: 150px;
+	padding-bottom: 100px;
+}
+
+#about h1 {
+text-align: center;
+color: #323740;
+font-size:50px;
+font-weight: lighter;
+margin-bottom:100px;
+padding-top: 100px;
+}
+
+.about_us {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#about .left, .right {
+	margin:20px;
+}
+
+#about .left {
+	width: 400px;
+}
+
+#about .left .soup {
+	width: 6%;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+#about .left img{
+	padding-bottom: 0px;
+	width: 100%;
+}
+
+
+
+#about .right {
+	width: 400px;
+}
+
+#about .right p {
+	border: 2px solid #535355;
+	padding:50px;
+	margin: 0px;
+	color: #686c73;
+}
+
+#about .right p:hover {
+	border:2px solid #85e337;
+	transition-delay: 0.1s;
+}
+
+
+#menu h1 {
+	text-align: center;
+color: #323740;
+font-size:50px;
+font-weight: lighter;
+padding-top: 100px;
+
+}
+
+#menu .menu_header .fork {
+	width: 3%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+#menu .menuwhole {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#menu .leftmenu, .rightmenu, .rightphoto {
+	margin-right: 100px;
+	margin-left: 15px;
+	margin-top: 80px;
+}
+
+#menu .menuwhole .leftmenu {								
+	width: 400px;
+}
+
+#menu .menuwhole .rightmenu {
+	width: 400px;
+}
+
+#menu .menuwhole .green  {
+	color: #323740;
+	border: 2px solid #85e337;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#menu .menuwhole .orange  {
+	color: #323740;
+	border: 2px solid #fa962d;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.menuitem {
+	margin-bottom: 30px;
+}
+
+#menu  .menuitem img {
+	width: 25%;
+	float: left;
+	margin-right: 15px;
+}
+
+#menu  .menuitem .topitem  {
+		color: #323740;
+		font-size: 15px;
+		font-weight: bold;
+		padding-bottom: 10px;
+		border-bottom: 2px dotted #e9eaec;
+}
+
+#menu  .menuitem .bottomitem  {
+	font-size: 13px;
+	color: #979ba3;
+	margin-bottom: 0px;
+}
+
+.price {
+	padding-left: 20px;
+}
+
+#menu .menuwhole .rightphoto {
+	position: relative;
+	display: flex;
+	
+}
+
+#menu .menuwhole .rightphoto .img_carrot {
+	display: flex;
+	justify-content: center;
+}
+
+#menu .menuwhole .rightphoto img {
+	display: block;
+	position: relative;
+	width: 100%;
+	align-self: center;	
+	opacity: 0.7;
+}
+
+
+#menu .menuwhole .rightphoto .text {
+align-self: center;
+position:absolute;
+}
+
+#menu .menuwhole .rightphoto .text a{
+	color: black;
+	background-color: white;
+	padding: 20px 20px;
+	font-size: 15px;
+	opacity: 0.9;
+}
+
+#menu .menuwhole .rightphoto .text a:hover {
+color: #85e337;
+padding: 20px 30px;
+ -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+#gallery h1 {
+	text-align: center;
+color: #5a5d60;
+font-size:55px;
+font-weight: lighter;
+padding-top: 100px;
+font-family: 'Shadows Into Light Two', cursive;
+margin-bottom: 80px;
+}
+
+
+ #gallery .photos {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+
+}
+
+#gallery .photos .img_one, .img_two, .img_three {
+	width: 300px;
+	margin-right: 5px;	
+	
+	 
+}
+
+#gallery .photos .slicka {
+	display: inline-block;
+    overflow: hidden !important;
+}
+  
+#gallery .photos img {
+width: 100%;
+
+opacity: 0.8;
+-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+
+#gallery .photos img:hover {
+  	opacity: 1;	
+  	transform: scale(1.1);
+  }
+
+#contact {
+background-color: white;
+width: 100%;
+margin-top: 200px;
+padding: 40px 100px 0px 100px;
+opacity: 0.4;
+display:flex;
+justify-content: center;
+font-family: 'Shadows Into Light Two', cursive;
+ }
+
+address {
+	color: black;
+	font-size:20px;
+	line-height: 30px;
+}
+
+#contact .name {
+	font-size: 26px;
+}
+
+#contact .radnovreme {
+		margin-right: 10px;
+		font-size: 17px;
+	}
+
+address a {
+	color: black;
+}
+
+address a:hover {
+	color: black;	
+}
+
+
+
+@media only screen and (max-width: 599px) {
+	#welcome h1, #about h1, #menu h1, #gallery h1 {
+		font-size: 35px;
+	}
+
+	#contact .radnovreme {
+		font-size: 15px;
+		margin-right: 20px;
+	}
+
+	#contact address {
+		font-size: 17px;
+
+	}
+
+	}
+
+
+.clear {
+	clear: both;
+}
+
+
